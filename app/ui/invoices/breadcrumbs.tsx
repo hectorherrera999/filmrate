@@ -1,6 +1,9 @@
 import { clsx } from 'clsx';
 import Link from 'next/link';
-import { lusitana } from '@/app/ui/fonts';
+
+// Fallback when '@/app/ui/fonts' is not available in this environment.
+// Replace with the proper import when the fonts module exists.
+const lusitana = { className: '' };
 
 interface Breadcrumb {
   label: string;
