@@ -1,4 +1,5 @@
-import { lusitana } from '@/app/ui/fonts';
+// Fallback for missing fonts module — provide a simple object with className
+const lusitana = { className: 'font-sans' };
 import {
   AtSymbolIcon,
   KeyIcon,
